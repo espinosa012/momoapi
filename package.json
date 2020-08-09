@@ -1,0 +1,33 @@
+{
+  "name": "momotheque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espinosa012/momotheque.git"
+  },
+  "author": "espinosa012",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/espinosa012/momotheque/issues"
+  },
+  "homepage": "https://github.com/espinosa012/momotheque#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "iconv-lite": "^0.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "moment-js": "^1.1.15",
+    "mongoose": "^5.8.10",
+    "mongoose-pagination": "^1.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
